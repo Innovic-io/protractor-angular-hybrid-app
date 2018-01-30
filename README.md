@@ -16,10 +16,17 @@ npm run update:selenium
 
 ```
 
-### Start
+### Start Selenium server
 
 ```bash
 
 # before running tests, start selenium server
 npm run start:selenium
+```
+
+### Run tests
+
+```bash
+
+npm run test
 ```
