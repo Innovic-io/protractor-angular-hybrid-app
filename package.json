@@ -6,7 +6,7 @@
   "scripts": {
     "test": "protractor protractor.conf.js",
     "update:selenium": "webdriver-manager update",
-    "start:selenium": "webdriver-manager staprt",
+    "start:selenium": "webdriver-manager start",
     "lint": "tslint './src/**/*.ts' --fix"
   },
   "keywords": [],
