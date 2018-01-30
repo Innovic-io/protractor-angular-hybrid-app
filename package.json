@@ -1,0 +1,26 @@
+{
+  "name": "protratctor-hybrid-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js",
+    "update:selenium": "webdriver-manager update",
+    "start:selenium": "webdriver-manager staprt",
+    "lint": "tslint './src/**/*.ts' --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.3.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/protractor": "^4.0.0",
+    "@types/jasmine": "^2.8.6",
+    "tslint": "^5.9.1",
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}

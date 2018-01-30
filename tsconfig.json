@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "sourceRoot": "./src",
+    "module": "commonjs",
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "types": [
+      "jasmine"
+    ],
+    "lib": [
+      "es2016",
+      "dom"
+    ]
+  }
+}
