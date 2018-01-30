@@ -10,6 +10,7 @@ describe("Should open nx.bimeye.com", () => {
 
   it("should get welcome message", () => {
 
+    // @ts-ignore
     expect(nxLoginPage.title.getText()).toBe("Welcome to BIMeye");
   });
 
