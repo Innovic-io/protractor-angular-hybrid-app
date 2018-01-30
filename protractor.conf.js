@@ -12,7 +12,7 @@ exports.config = {
     {
       'browserName': 'chrome',
       'chromeOptions': {
-        'args': ['--safe-mode', '--disable-gpu',]
+        'args': ['--headless', '--safe-mode', '--disable-gpu',]
       }
     }
   ],
